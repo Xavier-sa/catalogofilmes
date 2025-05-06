@@ -1,52 +1,51 @@
-# Banco de dados
+# 🎬 Catálogo de Filmes
 
-## Aula 1
+Este projeto é um sistema simples de listagem e visualização de filmes, desenvolvido com **PHP e MySQL**, ideal para fins de estudo e prática com CRUD, rotas e organização de arquivos em PHP sem frameworks.
 
-Criação do banco de dados, tabela filme e classe Model para lidar com a tabela filme no PHP.
+## 🔧 Tecnologias Utilizadas
 
-Filme
- id
- nome
- ano
- descricao
+- PHP (sem frameworks)
+- MySQL
+- HTML/CSS
+- Apache (XAMPP)
+- Rotas personalizadas com `.htaccess`
 
-## Aula 2
+## 📁 Funcionalidades
 
-Criado 2 métodos de consulta no Filme model e criação da listagem de filmes.
+- 📜 Listagem de todos os filmes cadastrados
+- 🔍 Visualização de detalhes de um filme
+- ➕ Inserção de novos registros
+- ✏️ Edição de informações por ID
+- ❌ Exclusão de filmes
+- 👤 Estrutura para usuários e filmes favoritos
 
-## Aula 3
+## 📘 Banco de Dados
 
-Organizando a estrura do projeto.
-Criação da funcionalidade de ver detalhes do filme.
+### Tabelas principais:
 
-Fazer a listagem e visualização do usuário.
+- `filme` (id, nome, ano, descricao)
+- `usuario` (id, nome)
+- `favorito` (usuario_id, filme_id)
 
+### Instruções SQL de exemplo:
+- Inserir 20 registros na tabela `filme`
+- Selecionar todos os registros
+- Selecionar um único registro por `id`
+- Atualizar um registro por `id`
+- Excluir um registro por `id`
+- Exibir apenas `nome` e `ano` de todos os filmes
 
-
-
----
-
-Exercicios
-
-- Instruções para inserir ao menos 20 registros
-- Instrução para retornar todos os registros
-- Instrução para retornar um unico registro por id
-- Instrução para retornar apenas nome e ano de todos
-- Instrução para atualizar um registro por id
-- Instrução para excluir um registro por id
-- Criar a tabela
-Usuario
- id
- nome
-
-Favorito
- usuario_id
- filme_id
+## 📂 Organização do Projeto
 
 
 
 
+## 📌 Observações
 
+Este projeto foi desenvolvido com base nas aulas práticas do curso Técnico em Desenvolvimento de Sistemas, com o objetivo de reforçar o aprendizado em back-end com PHP puro.
 
-### MEUS comandos : 
-https://albuquerque53.medium.com/usando-rotas-no-php-sem-frameworks-c566525a47b8
+## 👨‍💻 Autor
+
+**Wellington Xavier**  
+[LinkedIn](https://www.linkedin.com/in/wellington-xavier-90a004300)  
+[GitHub](https://github.com/Xavier-sa)  
